@@ -1,0 +1,25 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.DS_Store
+
+# Local secrets and certificates (not included in submission)
+.env
+.env.*
+*.crt
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secret*
+
+# Local logs, backups and data
+*.log
+*.bak
+*.before_*
+*.zip
+*.csv
+*.pth
